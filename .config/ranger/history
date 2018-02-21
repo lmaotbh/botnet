@@ -1,0 +1,23 @@
+shell 7z x wallpapers-master.zip
+open_witqh 
+rename clasq.jpg
+shell mkdir Videos
+shell youtube-dl https://www.youtube.com/watch?v=nlolvAVqn10
+rename Wallpapers
+shell mkdir People
+open_with vim
+shell mkdir Informat
+shell mkdir Screenshots
+
+shell gallery-dl https://boards.4chan.org/wg/thread/7108355#q7108355
+mkdir  Movies
+mkdir  YouTube
+mkdir  Series
+shell gallery-dl https://boards.4chan.org/wg/thread/7105950/more-like-these
+open_with 
+shell sudo chmod -r 770 BreachCompilation
+shell sudo chmod +drwx BreachCompilation
+shell sudo chmod +x query.sh
+shell gallery-dl 
+delete
+shell query
